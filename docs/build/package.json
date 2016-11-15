@@ -1,0 +1,19 @@
+{
+  "name": "taulcer_docs",
+  "version": "1.0.0",
+  "description": "docs for taulcer",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-markdown": "^1.2.0",
+    "gulp-sync": "^0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fanfan",
+  "license": "ISC"
+}
