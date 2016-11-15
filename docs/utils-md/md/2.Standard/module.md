@@ -6,11 +6,11 @@
 #### import命令 — 逐一指定要加载的方法
 
 ```javascript
-// 引入模块utils中的三个方法:
-import { dataFilter, getUrlParam, checkIDCardNumber } from 'utils';
+// 引入模块utils:
+import utils from 'utils';
 
-// 调用dataFilter方法
-dataFilter();
+// 调用cookieHelper的方法
+utils.cookieHelper;
 ```
 
 #### import命令 — 整体加载(不推荐)
@@ -64,5 +64,5 @@ export { multiply }
 ```
 
 #### 扩展
-> ##### export default命令和模块的继承请参考外网文档 <a href="http://es6.ruanyifeng.com/#docs/module" target="_blank">ES6 Module</a>
+> ##### export default命令和模块的继承请参考文档 <a href="http://es6.ruanyifeng.com/#docs/module" target="_blank">ES6 Module</a>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <btn :te-xt="obj2"></btn>
+    <btn :text="obj2"></btn>
     <div id="echarts"></div>
     <button @click="getCookie('data')">getcookie</button>
     <button @click="setCookie('data',obj)">setcookie</button>

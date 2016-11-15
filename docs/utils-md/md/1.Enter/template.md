@@ -1,5 +1,7 @@
 # Template
 
+>对于编辑器不做强制要求，但推荐使用Webstorm
+
 > Webstorm 编辑器建议代码模板
 
 > IDE 模板配置路径: Preferences -> Editor -> File and Code Templates
@@ -11,14 +13,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="biz-code" content="rm">
-  <title>Title</title>
-  <link href="/assets/img/favicon.ico" rel="icon" type="image/x-icon">
-  <!--<link href="/assets/css/main.css" rel="stylesheet">-->
-  <link href="/rm/assets/css/rm.css" rel="stylesheet">
+  <title>index</title>
+  <link rel="stylesheet" href="/assets/css/amazeui.min.css">
 </head>
 <body>
-  <div id="container-box"></div>
+  <div id="app">
+    <app></app>
+  </div>
 </body>
 </html>
 ```
@@ -26,50 +27,44 @@
 #### index.js
 
 ```javascript
-import 'aii-taurus';
-import Enter from './main';
-
+import Vue from 'vue'
+import App from './App'
+/* eslint-disable no-new */
 new Vue({
-  el: '#container-box',
-  template: '<Enter/>',
+  el: '#app',
   components: {
-    Enter
+    'app': App
   }
-});
+})
 ```
 
 #### main.vue
 
 ```vue
 <template>
-  
+
 </template>
 
 <script>
-  import {TDataTable} from 'aii-taurus';
-  import {constant} from 'rmpub';
+  import utils from '../../components/utils';//引入组件库，视开发情况而定引入什么组件库
+  import btn from '../../components/common/Btn'
 
   export default {
     components: { // register component
-      TDataTable
+      btn
     },
     data () {
       return {
-        table: {
-          pageSize: constant.PAGESIZE,
-          pagination: constant.PAGINATION
-        }
+
       };
     },
     methods: {
-      testFunction (value) {
-        console.log(value);
-      }
+
     }
   };
 </script>
 
 <style scoped>
-  
+
 </style>
 ```

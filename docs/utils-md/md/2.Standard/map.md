@@ -118,11 +118,12 @@ map.size // 0
 ```
 
 #### 遍历方法
-> ##### - Map原生提供三个遍历器生成函数和一个遍历方法(Map的遍历顺序就是插入顺序).
-> ##### - keys()：返回键名的遍历器.
-> ##### - values()：返回键值的遍历器.
-> ##### - entries()：返回所有成员的遍历器.
-> ##### - forEach()：遍历Map的所有成员.
+
+> ##### Map原生提供三个遍历器生成函数和一个遍历方法(Map的遍历顺序就是插入顺序).
+> ##### keys()：返回键名的遍历器.
+> ##### values()：返回键值的遍历器.
+> ##### entries()：返回所有成员的遍历器.
+> ##### forEach()：遍历Map的所有成员.
 
 ```javascript
 var map = new Map([
@@ -324,12 +325,13 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]')
 ```
 
 #### 扩展
+
 > ##### Map的键实际上是跟内存地址绑定的，只要内存地址不一样，就视为两个键。
 > ##### 如果Map的键是一个简单类型的值（数字、字符串、布尔值），则只要两个值严格相等，Map将其视为一个键，包括0和-0。另外，虽然NaN不严格相等于自身，但Map将其视为同一个键。
-> ##### 具体说明请参考外网文档 <a href="http://es6.ruanyifeng.com/#docs/set-map" target="_blank">ES6 Map</a>
-> ##### 迭代循环(for...of)详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...of" target="_blank">迭代循环</a>
-> ##### 扩展运算符(...)详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_operator" target="_blank">扩展运算符</a>
-> ##### 数组过滤(array.filter())详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">array.filter()</a>
-> ##### 数组map(array.map())详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank">array.map()</a>
-> ##### 箭头函数(=>)详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions" target="_blank">箭头函数</a>
+> ##### 具体说明请参考文档 <a href="http://es6.ruanyifeng.com/#docs/set-map" target="_blank">ES6 Map</a>
+> ##### 迭代循环(for...of)详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...of" target="_blank">迭代循环</a>
+> ##### 扩展运算符(...)详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_operator" target="_blank">扩展运算符</a>
+> ##### 数组过滤(array.filter())详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">array.filter()</a>
+> ##### 数组map(array.map())详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank">array.map()</a>
+> ##### 箭头函数(=>)详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions" target="_blank">箭头函数</a>
 

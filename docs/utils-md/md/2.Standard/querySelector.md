@@ -53,12 +53,12 @@ elementList = document.querySelectorAll(selectors);
 var matches = document.querySelectorAll("div.note, div.alert");
 ```
 
-
 #### 扩展
-> ##### 更多querySelector, 详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelector" target="_blank">querySelector</a>
-> ##### 更多querySelectorAll, 详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelectorAll" target="_blank">querySelectorAll</a>
-> ##### CSS选择器, 详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_Started/Selectors" target="_blank">CSS选择器</a>
-> ##### CSS伪类, 详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-elements" target="_blank">CSS伪类</a>
-> ##### NodeList, 详见外网文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/NodeList" target="_blank">NodeList</a>
+
+> ##### 更多querySelector, 详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelector" target="_blank">querySelector</a>
+> ##### 更多querySelectorAll, 详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelectorAll" target="_blank">querySelectorAll</a>
+> ##### CSS选择器, 详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_Started/Selectors" target="_blank">CSS选择器</a>
+> ##### CSS伪类, 详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-elements" target="_blank">CSS伪类</a>
+> ##### NodeList, 详见文档 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/NodeList" target="_blank">NodeList</a>
 
 
