@@ -1,10 +1,13 @@
 <template>
-  <input :type="type" :value="value" :name="name" :max="max" :min="min"/>
+  <input :type="type" :value="val" :name="name" :max="max" :min="min"/>
 </template>
 <script>
   export default {
     props: {
-      name: String,
+      name: {
+        type: String,
+        required: true
+      },
       type: {
         type: String,
         default: 'range'
@@ -17,14 +20,17 @@
         type: Number,
         default: 100
       },
-      value: {
+      val: {
         type: Number,
         default: 10
       }
     },
     methods: {
       getValue () {
-        return this.value;
+        return this.$el.value;
+      },
+      setValue (val) {
+        this.$el.value=val;
       }
     }
   }

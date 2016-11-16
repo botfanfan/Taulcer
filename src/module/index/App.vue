@@ -17,7 +17,7 @@
       <li><a href="">模态框</a></li>
       <li><a href="">提示信息</a></li>
       <li><a href="">文件上传、下载</a></li>
-      <li><a href="">范围拉动</a></li>
+      <li><i class="am-icon-check"></i><a href="range.html">范围拉动</a></li>
       <li><a href="">开关</a></li>
       <li><a href="">标签页</a></li>
       <li><i class="am-icon-check"></i><a href="ajax.html">Ajax</a></li>
