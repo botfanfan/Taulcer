@@ -9,11 +9,12 @@
       范围拉动条，表单元素。
     </blockquote>
     <hr>
+    <h2>demo</h2>
     <pre>
 template:
-  &lt;range name="fanfan" ref="range"&gt;&lt;/range&gt;<!--范围拉条组件-->
-  &lt;button @click="getval()" class="am-btn am-btn-secondary"&gt;getValue&lt;/button&gt;<!--点击获取输入的值-->
-  &lt;button @click="setval(50)" class="am-btn am-btn-secondary"&gt;setValue&lt;/button&gt;<!--点击设置拉条输入的值-->
+  &lt;range name="fanfan" ref="range"&gt;&lt;/range&gt;&lt;!--范围拉条组件--&gt;
+  &lt;button @click="getval()" class="am-btn am-btn-secondary"&gt;getValue&lt;/button&gt;&lt;!--点击获取输入的值--&gt;
+  &lt;button @click="setval(50)" class="am-btn am-btn-secondary"&gt;setValue&lt;/button&gt;&lt;!--点击设置拉条输入的值--&gt;
 
 script:
   import range from '../../components/common/range'//引入组件
@@ -41,6 +42,7 @@ script:
           <th>默认值</th>
           <th>是否必须</th>
           <th>是否使用数据绑定(v-bind)</th>
+          <th>备注</th>
         </tr>
       </thead>
       <tbody>
@@ -50,6 +52,7 @@ script:
           <td>-</td>
           <td>T</td>
           <td>F</td>
+          <td>表单名称</td>
         </tr>
         <tr>
           <td>type</td>
@@ -57,6 +60,7 @@ script:
           <td>range</td>
           <td>F</td>
           <td>F</td>
+          <td>表单类型</td>
         </tr>
         <tr>
           <td>value</td>
@@ -64,6 +68,7 @@ script:
           <td>0</td>
           <td>F</td>
           <td>T</td>
+          <td>表单值</td>
         </tr>
         <tr>
           <td>max</td>
@@ -71,6 +76,7 @@ script:
           <td>100</td>
           <td>F</td>
           <td>T</td>
+          <td>范围最大值</td>
         </tr>
         <tr>
           <td>min</td>
@@ -78,15 +84,18 @@ script:
           <td>0</td>
           <td>F</td>
           <td>T</td>
+          <td>范围最小值</td>
         </tr>
       </tbody>
     </table>
     <h2>javascript API</h2>
     <table class="am-table">
       <thead>
-        <th>名称</th>
-        <th>入参</th>
-        <th>出参</th>
+      <tr>
+          <th>名称</th>
+          <th>入参</th>
+          <th>出参</th>
+        </tr>
       </thead>
       <tbody>
         <tr>

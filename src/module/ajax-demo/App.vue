@@ -6,8 +6,8 @@
     <blockquote>
       ajax异步请求后端返回的数据
     </blockquote>
-    <h3>demo</h3>
     <hr>
+    <h2>demo</h2>
     <pre class="code">
 template:
 &lt;div&gt;
